@@ -1,6 +1,6 @@
 {
   "name": "elasticsearch-aggregation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "ISC",
   "description": "Enhanced TypeScript definitions for Elasticsearch with type-safe aggregations",
   "types": "index.d.ts",
