@@ -1,0 +1,33 @@
+{
+  "name": "elasticsearch-aggregation",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "Enhanced TypeScript definitions for Elasticsearch with type-safe aggregations",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test:types": "tsc --noEmit",
+    "prepublishOnly": "npm run test:types"
+  },
+  "keywords": [
+    "elasticsearch",
+    "typescript",
+    "types",
+    "aggregation",
+    "definitions"
+  ],
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.0.0"
+  },
+  "peerDependencies": {
+    "@elastic/elasticsearch": "^8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
